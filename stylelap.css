@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Logo */
+#navbar img{
+    border-radius: 50px;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    z-index: 2;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(111, 21, 214);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.7;
+}
+/*Left navigation*/
+#navbar .nav-left{
+    display: flex;
+    padding: 3px 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left li a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+.nav-left li a:hover{
+    background-color: black;
+    color: white;
+}
+/*Right navigation*/
+.nav-right{
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right a{
+    text-decoration: none;
+    color: red;
+    padding: 8px 15px;
+}
+.nav-right a:hover{
+    color: yellow;
+}
+.nav-right li img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+.nav-right li img:hover{
+    transform: scale(1.1);
+}
+.navopt{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+/* Home section*/
+#home{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 35px 150px 180px 150px;
+}
+#home h1{
+    font-family: Acme;
+    color: white;
+    font-size: 2.5rem;
+    padding: 20px 15px;
+}
+#home p{
+    color: white;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+ #home::before{
+    content: "";
+    background: url("/Home2.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.8;
+} 
+/* You Tube */
+#youtube::before{
+    content: "";
+    background: url("/youtube3.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: -2;
+
+}
+#youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 350px;
+    padding: 80px 150px 100px 150px;
+}
+#youtube h1{
+    font-family: Acme;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+    color: rgb(243, 66, 12);
+}
+#youtube p{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    font-style: oblique;
+}
+#youtube a{
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+#youtube a:hover{
+    color: red;
+}
+/* About Me */
+#About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 150px;
+    position: relative;
+    height: 350px;
+}
+#About h1{
+    font-family: Acme;
+    color: rgb(106, 250, 10);
+    font-size: 2.3rem;
+    padding: 20px;
+}
+#About p{ 
+    font-size: 1.3rem;
+    font-style: oblique;
+    color: rgb(0, 238, 255);
+}
+#About::before{
+    content: "";
+    background: url("https://images.wallpaperscraft.com/image/laptop_keyboard_glow_170138_3840x2400.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: -1;
+
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
