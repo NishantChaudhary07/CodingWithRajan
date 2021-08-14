@@ -55,8 +55,6 @@
     align-items: center;
 }
 .nav-right a{
-    text-decoration: none;
-    color: red;
     padding: 8px 15px;
 }
 .nav-right a:hover{
@@ -64,8 +62,8 @@
 }
 .nav-right li img{
     height: 50px;
-    width: 50px;
-    position: relative;
+    width: 60px;
+    /* position: relative; */
 }
 .nav-right li img:hover{
     transform: scale(1.1);
@@ -82,6 +80,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    height: 300px;
     padding: 35px 150px 180px 150px;
 }
 #home h1{
@@ -92,7 +91,7 @@
 }
 #home p{
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: oblique;
 }
  #home::before{
@@ -115,7 +114,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0.8;
+    opacity: 0.6;
     z-index: -2;
 
 }
@@ -125,23 +124,29 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    height: 350px;
+    height: 500px;
     padding: 80px 150px 100px 150px;
 }
 #youtube h1{
     font-family: Acme;
-    font-size: 2.3rem;
+    font-size: 3rem;
+    font-weight: bold;
     padding-bottom: 20px;
     color: rgb(243, 66, 12);
 }
 #youtube p{
-    color: white;
-    font-size: 1.5rem;
-    padding-bottom: 15px;
+    color: black;
+    font-size: 2rem;
+    padding-bottom: 35px;
     font-style: oblique;
 }
 #youtube a{
-    padding-top: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    color:rgb(26, 11, 238);
     font-size: 1.2rem;
 }
 #youtube a:hover{
@@ -155,16 +160,16 @@
     flex-direction: column;
     padding: 0px 150px;
     position: relative;
-    height: 350px;
+    height: 550px;
 }
 #About h1{
     font-family: Acme;
     color: rgb(106, 250, 10);
-    font-size: 2.3rem;
+    font-size: 3rem;
     padding: 20px;
 }
 #About p{ 
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-style: oblique;
     color: rgb(0, 238, 255);
 }
@@ -186,5 +191,5 @@
     text-align: center;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
