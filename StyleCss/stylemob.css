@@ -15,12 +15,9 @@
 #navbar .nav-left{
     padding: 3px 2px;
 }
-.nav-left{
-    flex-wrap: wrap;
-}
 .nav-left li a{
     font-size: 1rem;
-    padding: 8px 6px;
+    padding: 8px 5px;
 }
 #home{
     padding: 35px 20px 180px 20px;
