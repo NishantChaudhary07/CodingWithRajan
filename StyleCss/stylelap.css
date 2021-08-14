@@ -40,6 +40,7 @@
     text-decoration: none;
     padding: 8px 15px;
     font-size: 1.3rem;
+    font-weight: bold;
     border-radius: 20px;
 }
 .nav-left li a:hover{
