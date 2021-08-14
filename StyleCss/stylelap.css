@@ -97,7 +97,7 @@
 }
  #home::before{
     content: "";
-    background: url("../Images/Home2.jpg") no-repeat center center/cover;
+    background: url("./Images/Home2.jpg") no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -109,7 +109,7 @@
 /* You Tube */
 #youtube::before{
     content: "";
-    background: url("../Images/youtube3.jpg") no-repeat center center/cover;
+    background: url("./Images/youtube3.jpg") no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
