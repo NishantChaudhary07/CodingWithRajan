@@ -50,20 +50,13 @@
 .nav-right{
     display: flex;
     list-style: none;
-    font-size: 1.3rem;
     justify-content: center;
     align-items: center;
-}
-.nav-right a{
-    padding: 8px 15px;
-}
-.nav-right a:hover{
-    color: yellow;
 }
 .nav-right li img{
     height: 50px;
     width: 60px;
-    /* position: relative; */
+    padding: 8px 15px;
 }
 .nav-right li img:hover{
     transform: scale(1.1);
@@ -124,7 +117,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    height: 500px;
+    height: 600px;
     padding: 80px 150px 100px 150px;
 }
 #youtube h1{
@@ -141,13 +134,13 @@
     font-style: oblique;
 }
 #youtube a{
-    margin-top: 25px;
+    margin-top: 40px;
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
     border: 2px solid black;
     color:rgb(26, 11, 238);
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 #youtube a:hover{
     color: red;
@@ -158,9 +151,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0px 150px;
+    padding: 0px 120px;
     position: relative;
-    height: 550px;
+    height: 650px;
 }
 #About h1{
     font-family: Acme;
