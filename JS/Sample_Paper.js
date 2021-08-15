@@ -10,13 +10,12 @@ fetch(paperurl).then(response => response.json())
     console.log(data);
     for(key in data)
     {
-        // console.log(data[key]);
+         console.log(data[key]);
         // console.log('another one');
-        let table=document.querySelector('.table');
+        let table=document.querySelector('#table');
         let link='${APP_BASE_URL}files/download/${data[key]}.uuid';
         // console.log(link);
         table.innerHTML+=`<tr>
-        <th scope="row">1</th>
         <td>${data[key].filename}</td>
         <td> <a href=${APP_BASE_URL}files/download/${data[key].uuid}>download</a></td>
     </tr>`

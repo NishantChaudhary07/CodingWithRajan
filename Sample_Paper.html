@@ -1,29 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="StyleCss/sample_paper.css">
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Practice</title>
 </head>
 
 <body>
-    <h1>sample papers</h1>
-    <script src="/JS/Sample_Paper.js"></script>
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">name</th>
-                <th scope="col">link</th>
-        </thead>
-        <tbody>
-           
-            
-          
-        </tbody>
-    </table>
+    <div class="main">
+    <nav id="navbar">
+        <div class="logo">
+        <img src="Images/logo.jpg" alt="Rajan's website">
+       </div>
+       <div class="navopt">
+        <ul class="nav-left">
+            <li class="iteml"><a href="#home">Home</a></li>
+            <li class="iteml"><a href="#About">About Me</a></li>
+            <li class="iteml"><a href="#youtube">You Tube</a></li>
+            <li class="iteml"><a href="Sample_Paper.html" target="_blank">Practice</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li class="itemr"><a href="https://www.instagram.com/kutty_rajan/" target="_blank"><img src="Images/instalogo.png"> </a></li>
+            <li class="itemr"><a href="#"><img src="Images/facebook-logo-3.png"></a></li>
+            <li class="itemr"><a href="https://www.youtube.com/channel/UCfPHdzg644Yaop7iafD2E_A" target="_blank"><img src="Images/Youtubeicon.png"></a></li>
+        </ul>
+    </nav>
+    
+    <div class="container" id="container">
+        <h1  class="center" >Download from the sample papers available on our site</h1>
+        <table class="table table-info my-8">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Link</th>
+              </tr>
+            </thead>
+            <tbody id="table">
+              
+            </tbody>
+          </table>
+    </div>
+    </div>
+    <footer>
+        <div class="copyright">
+           copyright &copy; www.CodingWithRajan.com All rights reserved!
+        </div>
+    </footer>
+
+
+
+    <script src="JS/Sample_Paper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

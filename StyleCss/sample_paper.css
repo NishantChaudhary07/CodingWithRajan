@@ -1,0 +1,131 @@
+.center
+{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Logo */
+#navbar img{
+    border-radius: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.main::before{
+    content: "";
+    background: url('../Images/Home2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.8;
+}
+/* Navigation bar */
+/* #container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#container::before{
+    content: "";
+    background: url('../Images/Home2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.8;
+} */
+#navbar{
+    display: flex;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(31, 25, 25);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.58;
+}
+/*Left navigation*/
+#navbar .nav-left{
+    display: flex;
+    padding: 3px 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.nav-left li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Right navigation*/
+.nav-right{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right li img{
+    height: 50px;
+    width: 60px;
+    padding: 8px 15px;
+}
+.nav-right li img:hover{
+    transform: scale(1.1);
+}
+.navopt{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+
+/* #container::before{
+    content: "";
+    background: url("../Home2.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.6;
+}  */
+
+.copyright{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
