@@ -34,7 +34,7 @@
 }
 #navbar::before{
     content: "";
-    background-color: black;
+    background-color: rgb(31, 25, 25);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -63,6 +63,8 @@
     background-color: white;
     color: black;
 }
+
+
 /*Right navigation*/
 .nav-right{
     display: flex;
