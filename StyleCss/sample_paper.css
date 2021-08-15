@@ -94,7 +94,7 @@
 }
 
 
-/* #container::before{
+ #container::before{
     content: "";
     background: url("../Home2.jpg") no-repeat center center/cover;
     height: 100%;
@@ -104,7 +104,7 @@
     left: 0px;
     z-index: -2;
     opacity: 0.6;
-}  */
+}  
 
 .copyright{
     display: block;
