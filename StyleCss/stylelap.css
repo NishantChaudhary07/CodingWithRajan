@@ -22,7 +22,7 @@
     top: 0px;
     left: 0px;
     z-index: -2;
-    opacity: 0.8;
+    opacity: 1;
 }
 #navbar{
     display: flex;
