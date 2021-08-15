@@ -29,19 +29,19 @@
     width: 100%;
     top: 0px;
     left: 0px;
-    position: sticky;
+    position: fixed;
     z-index: 2;
 }
 #navbar::before{
     content: "";
-    background-color: rgb(146, 101, 197);
+    background-color: black;
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: -2;
-    opacity: 0.7;
+    opacity: 0.58;
 }
 /*Left navigation*/
 #navbar .nav-left{
@@ -52,7 +52,7 @@
     align-items: center;
 }
 .nav-left li a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 8px 15px;
     font-size: 1.3rem;
@@ -60,8 +60,8 @@
     border-radius: 20px;
 }
 .nav-left li a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 /*Right navigation*/
 .nav-right{
@@ -91,7 +91,7 @@
     flex-direction: column;
     position: relative;
     height: 300px;
-    padding: 35px 150px 180px 150px;
+    padding: 150px 150px 180px 150px;
 }
 #home h1{
     font-family: Acme;
